@@ -10,8 +10,8 @@
         {
           "id": "horizontal-funnel-chart",
           "type": "dscc",
-          "script": "https://example.com/path-to-your-visualization.js",
-          "css": "https://example.com/path-to-your-styles.css"
+          "script": "https://github.com/peeravit-s/looker_funnel_chart/blob/main/horizontal_funnel/visualization.js",
+          "css": "https://github.com/peeravit-s/looker_funnel_chart/blob/main/horizontal_funnel/styles.css"
         }
       ]
     }
