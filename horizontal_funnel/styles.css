@@ -1,0 +1,39 @@
+/* Apply styles to the SVG container for better spacing */
+svg {
+    font-family: Arial, sans-serif;
+    padding: 10px;
+}
+
+/* Style the funnel bars */
+.bar {
+    transition: fill 0.3s, width 0.3s;
+    stroke: #e0e0e0; /* Add a subtle border to the bars */
+    stroke-width: 1px;
+}
+
+/* Hover effect for funnel bars */
+.bar:hover {
+    fill: #4a90e2; /* Change the color on hover */
+    opacity: 0.8;
+}
+
+/* Label styles for the stages */
+.label {
+    font-size: 14px;
+    font-weight: bold;
+    fill: #ffffff; /* White color for better contrast */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Text shadow for readability */
+}
+
+/* Value labels inside each bar */
+.value {
+    font-size: 13px;
+    fill: #333333;
+    font-weight: bold;
+}
+
+/* General styling for chart background and padding */
+.chart-background {
+    fill: #f8f9fa; /* Light gray background for contrast */
+    border-radius: 8px; /* Rounded corners for a softer look */
+}

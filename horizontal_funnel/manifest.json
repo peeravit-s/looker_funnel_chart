@@ -1,0 +1,19 @@
+{
+    "dataStudio": {
+      "name": "Horizontal Funnel Chart",
+      "logoUrl": "",
+      "organization": "",
+      "organizationUrl": "",
+      "supportUrl": "",
+      "description": "A custom horizontal funnel chart using D3.js",
+      "components": [
+        {
+          "id": "horizontal-funnel-chart",
+          "type": "dscc",
+          "script": "https://example.com/path-to-your-visualization.js",
+          "css": "https://example.com/path-to-your-styles.css"
+        }
+      ]
+    }
+  }
+  
